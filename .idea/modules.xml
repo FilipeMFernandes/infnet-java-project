@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/infnet-java-project.iml" filepath="$PROJECT_DIR$/.idea/infnet-java-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-project/java-project.iml" filepath="$PROJECT_DIR$/java-project/java-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-project/java-project.iml" filepath="$PROJECT_DIR$/java-project/java-project.iml" />
     </modules>
   </component>
 </project>
