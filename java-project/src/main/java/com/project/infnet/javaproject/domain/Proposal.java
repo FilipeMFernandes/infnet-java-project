@@ -2,9 +2,15 @@ package com.project.infnet.javaproject.domain;
 
 import lombok.Data;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 @Data
+@Entity
+@Table(name = "proposal")
 public class Proposal {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Long id;
     Provider supplier;
     ArrayList<String> budget;
     Product product;

@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/java-project/src/main/resources/application.properties" line="5" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e17d5ac-9ba3-4ea2-bc6c-16c41c440869" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Empresa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Fornecedor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Orcamento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Pedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Produto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Proposta.java" beforeDir="false" />
+    <list default="true" id="0e17d5ac-9ba3-4ea2-bc6c-16c41c440869" name="Default Changelist" comment="Criação da">
+      <change afterPath="$PROJECT_DIR$/java-project/src/main/java/Controller/BudgetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-project/src/main/java/Controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-project/src/main/java/Controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-project/src/main/java/Controller/ProposalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-project/src/main/java/Controller/ProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-project/src/main/java/Controller/RequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-project/src/main/java/Repository/BudgetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-project/src/main/java/Repository/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-project/src/main/java/Repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-project/src/main/java/Repository/ProposalRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-project/src/main/java/Repository/ProviderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-project/src/main/java/Repository/RequestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Budget.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Budget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Proposal.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Proposal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Request.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/java-project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -37,126 +49,11 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/JavaProjectApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Company.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Provider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Request.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Budget.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Proposal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -167,33 +64,12 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/java-project/pom.xml" />
-        <option value="$PROJECT_DIR$/java-project/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/java-project/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/JavaProjectApplication.java" />
-        <option value="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/TestController.java" />
-        <option value="$PROJECT_DIR$/java-project/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Empresa.java" />
-        <option value="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Cliente.java" />
-        <option value="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Fornecedor.java" />
-        <option value="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Orcamento.java" />
-        <option value="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Pedido.java" />
-        <option value="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Produto.java" />
-        <option value="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Proposta.java" />
-        <option value="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/Proposal.java" />
-        <option value="$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Proposal.java" />
-      </list>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -202,108 +78,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
-      <hideEmptyPackages ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="infnet-java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="infnet-java-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="infnet-java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="infnet-java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="infnet-java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="infnet-java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="infnet-java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="infnet-java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="infnet-java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="infnet-java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="infnet-java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="infnet-java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javaproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="infnet-java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="infnet-java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="infnet-java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="infnet-java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="infnet-java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="infnet-java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1UBFOTXGOJvuLJspD1PWwNMJQUR" />
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -328,6 +106,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.project.infnet.javaproject" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DesenvolvedorJava\infnet-java-project\java-project\src\main\resources\static" />
       <recent name="C:\Users\DesenvolvedorJava\infnet-java-project\java-project\src\main\resources\templates" />
@@ -372,6 +153,9 @@
       <workItem from="1573243118922" duration="3196000" />
       <workItem from="1574103063738" duration="1457000" />
       <workItem from="1574108394206" duration="972000" />
+      <workItem from="1574822053310" duration="378000" />
+      <workItem from="1574859646650" duration="5347000" />
+      <workItem from="1574880271718" duration="6041000" />
     </task>
     <task id="LOCAL-00001" summary="Classes Criadas">
       <created>1573246335467</created>
@@ -390,190 +174,26 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11457000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27050054" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info id="Learn" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989259" weight="0.32960895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50107414" side_tool="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32960597" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32960597" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Classes Criadas" />
     <MESSAGE value="Organizaçao Classes" />
     <option name="LAST_COMMIT_MESSAGE" value="Organizaçao Classes" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-project/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.2.0.RELEASE/spring-boot-starter-parent-2.2.0.RELEASE.pom" />
-    <entry file="file://$PROJECT_DIR$/java-project/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/test/java/com/project/infnet/javaproject/JavaProjectApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/JavaProjectApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Proposal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Budget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-project/src/main/java/com/project/infnet/javaproject/domain/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
