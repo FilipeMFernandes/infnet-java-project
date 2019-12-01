@@ -1,7 +1,6 @@
-package Controller;
+package com.project.infnet.javaproject.Controller;
 
-import Repository.ProductRepository;
-import Repository.ProposalRepository;
+import com.project.infnet.javaproject.Repository.ProposalRepository;
 import com.project.infnet.javaproject.domain.Proposal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;

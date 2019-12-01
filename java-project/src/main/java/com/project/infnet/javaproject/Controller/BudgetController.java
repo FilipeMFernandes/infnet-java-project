@@ -1,6 +1,6 @@
-package Controller;
+package com.project.infnet.javaproject.Controller;
 
-import Repository.BudgetRepository;
+import com.project.infnet.javaproject.Repository.BudgetRepository;
 import com.project.infnet.javaproject.domain.Budget;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

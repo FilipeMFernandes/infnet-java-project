@@ -1,6 +1,6 @@
-package Controller;
+package com.project.infnet.javaproject.Controller;
 
-import Repository.ClientRepository;
+import com.project.infnet.javaproject.Repository.ClientRepository;
 import com.project.infnet.javaproject.domain.Client;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,4 +1,4 @@
-package Repository;
+package com.project.infnet.javaproject.Repository;
 
 import com.project.infnet.javaproject.domain.Provider;
 import org.springframework.data.repository.CrudRepository;

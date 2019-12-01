@@ -17,6 +17,7 @@ public class Request {
     String description;
     @Column(name = "quantidade")
     int quantidade;
+
     ArrayList<String> propostas;
 
     public Request(String title, String description, int quantidade, ArrayList<String> propostas) {
